@@ -23,8 +23,14 @@ public class ArithmeticAverageCalculator {
 
         // Calculating the arithmetic average of the school notes
         float result = (firstNote + secondNote + thirdNote) / 3;
-        // Showing the message with the result
-        System.out.printf("O resultado da média aritmética das notas é de %.2f", result);
+        // Showing a message about the average of the user
+        System.out.printf("O resultado da média aritmética das notas é de %.2f%n", result);
+        // Checking if the arithmetic average is more or equal to 6
+        if (result >= 6) {
+            System.out.print("Portanto o usuário está aprovado!");
+        } else {
+            System.out.print("Portanto o usuário está reprovado!");
+        }
 
     }
 }
