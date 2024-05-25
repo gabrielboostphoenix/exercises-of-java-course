@@ -44,5 +44,8 @@ public class AgeCalculator {
 
         }
 
+        // Closing the user keyboard where isn't possible to enter with more values
+        input.close();
+
     }
 }
